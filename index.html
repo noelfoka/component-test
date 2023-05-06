@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Vertical mobile navbar</title>
+    </head>
+    <body>
+        <!-- Simulate a smartphone / tablet look -->
+        <div class="mobile-container">
+
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+                <a href="javascript:void(0);" class="icon"
+                    onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div style="padding-left:16px">
+                <h3>Horizontal Mobile Navbar</h3>
+                <p>This example demonstrates how a navigation menu on a
+                    mobile/smart phone could look like.</p>
+                <p>Click on the hamburger menu (three bars) in the top right
+                    corner, to toggle the menu.</p>
+                <p><strong>Note that this example should'nt be used if you have
+                        a lot of links, as they will "break" the navbar when
+                        there's too many (especially on very small screens).</strong></p>
+            </div>
+
+            <!-- End smartphone / tablet look -->
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
