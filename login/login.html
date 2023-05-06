@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./login.css">
+        <title>Modal login form</title>
+    </head>
+    <body>
+        <h2>Modal login form</h2>
+
+        <button onclick="document.getElementById(id01).style.display='block'"
+            style="width:auto">Login</button>
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php"
+                method="post">
+                <div class="imgcontainer">
+                    <span
+                        onclick="document.getElementById('id01').style.display='none'"
+                        class="close" title="Close Modal">&times</span>
+                    <img
+                        src="https://img.freepik.com/vecteurs-premium/visage-jeune-homme-noir-barbe-portrait-masculin-avatar-dans-style-plat-vue-face_497399-251.jpg?w=2000"
+                        alt="Avatar" class="avatar">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
